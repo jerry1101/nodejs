@@ -1,0 +1,22 @@
+{
+  "name": "read_setting_file",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "outputs": {
+      {
+          "type": report
+          "query": select * from {twmcustomer}
+          "format": csv
+          "backup": true
+      },
+      {
+          "type": report
+          "query": select * from {twmitem}
+          "format": excel
+          "backup": false
+      },
+  },
+  "author": "",
+  "license": "ISC"
+}
