@@ -4,19 +4,20 @@
   "description": "",
   "main": "index.js",
   "outputs": {
-      {
-          "type": report
-          "query": select * from {twmcustomer}
-          "format": csv
-          "backup": true
-      },
-      {
-          "type": report
-          "query": select * from {twmitem}
-          "format": excel
-          "backup": false
-      },
-  },
+    "output1": {
+        "type": "report",
+        "query": "select * from {twmcustomer}",
+        "format": "csv",
+        "backup": "true"
+    },
+    "output2": {
+        "type": "report",
+        "query": "select * from {twmitem}",
+        "format": "excel",
+        "backup": "false"
+    }
+},
+
   "author": "",
   "license": "ISC"
 }
