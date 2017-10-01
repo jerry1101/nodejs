@@ -1,10 +1,10 @@
-var config = require('./resource/config');
+// var config = require('./resource/config');
+var config = require('./resource/config1.json');
+var reports = config.reports;
 
-var outputs = config.outputs;
-
-for(var key in outputs)
+for(var key in reports)
 {
-    console.log("index : ",key,"output : ",outputs[key]);
+    console.log("index : ",key,"output : ",reports[key]);
 
 };
 
