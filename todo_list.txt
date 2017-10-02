@@ -1,0 +1,23 @@
+-- done --
+console log
+ftp
+email
+read Json setting
+
+
+-- export --
+CSV
+Excel
+
+-- db access --
+access RDBSS
+access DB w/ jdbc
+access VJDBC
+
+-- web service --
+access REST web service
+build REST web service
+
+-- 3rd party --
+access kafka
+access solr
